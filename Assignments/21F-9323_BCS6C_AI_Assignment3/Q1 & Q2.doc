@@ -1,0 +1,13 @@
+
+| Algorithm         | Space Complexity | Time Complexity | Winner of the Game |
+|-------------------|------------------|-----------------|---------------------|
+| Minimax           | O(b^m)           | O(b^m)          | Varies (Depends on the game and depth) |
+| Alpha-beta Pruning| O(b*d)           | O(b^(d/2))      | Varies (Depends on the game and depth) |
+
+In the table:
+
+- Space complexity refers to the amount of memory required by the algorithm to execute, where 'b' represents the branching factor (average number of possible moves), and 'm' represents the maximum depth of the game tree.
+- Time complexity refers to the computational time required by the algorithm to execute, where 'd' represents the depth of the game tree.
+- The winner of the game may vary depending on factors such as the game's rules, initial state, depth of search, and the performance of the agents.
+
+Note: The above complexities are approximate and may vary based on specific implementations and optimizations. Additionally, the winner of the game depends on various factors, including the strategies employed by the agents and the randomness involved in the game. Therefore, it's important to consider these factors when comparing the algorithms' performances.
